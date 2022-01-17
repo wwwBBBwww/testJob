@@ -1,0 +1,35 @@
+html,body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding:10px 10px 0px;
+}
+*{
+  box-sizing: border-box;
+}
+
+
+.form{
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  padding:5px ;
+}
+
+.form__group{
+width: 100%;
+margin-bottom: 10px;
+padding: 0 5px;
+line-height: 16px;
+}
+
+.form__comment{
+  resize: none;
+  width: 100%;
+  height: 100px;
+}
+
+[data-state="false"]{
+  border-color:red;
+}
